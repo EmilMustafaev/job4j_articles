@@ -30,5 +30,6 @@ public class SimpleArticleService implements ArticleService {
             var article = articleGenerator.generate(words);
             articleStore.save(article);
         }
+
     }
 }
